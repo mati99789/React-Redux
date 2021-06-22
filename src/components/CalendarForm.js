@@ -145,7 +145,6 @@ class CalendarForm extends React.Component {
 
     saveMeeting() {
         const {saveMeeting} = this.props;
-
         if(typeof saveMeeting === 'function') {
             saveMeeting( this.getFieldsData() );
         }
